@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+    
+}
+
+
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.game-inside {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+}
+
+.player-status, .enemy-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.hp-bar{
+    width: 190px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.choices{
+    display: flex;
+    gap: 40px;
+    
+}
+
+
+.top-text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.20);
+}
+
+
+.btn-rps {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.vs{
+    font-size: 10rem;
+    font-family: 'Anonymous Pro', monospace;
+    font-style: italic;
+    font-weight: bolder;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-shadow: -3px 2px 2px rgba(0, 0, 0, 0.20);
+
+}
+
+
+progress{
+    width: 100px;
+    height: 30px;
+
+}
+
+#rock-btn:hover {
+    scale: 1.1;
+    transition: 0.8s;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+
+#paper-btn:hover{
+    scale: 1.1;
+    transition: 0.8s;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+
+#scissors-btn:hover{
+    scale: 1.1;
+    transition: 0.8s;
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388; 
+}
+
+
+
+
+.choiceBtn{
+    border-radius: 15px;
+    border: 0.646px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(114deg, rgba(255, 255, 255, 0.60) 3.25%, rgba(255, 255, 255, 0.20) 96.93%);
+    box-shadow: 12.27692px 12.27692px 12.92308px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(6.461538791656494px);
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    font-size: 1.4rem;
+    text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.20);
+    
+}
+
+.middle-game {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.heart, .batery {
+    width: 30px;
+}
+
+.enemy-profile, .player-profile {
+    width: 150px;
+}
