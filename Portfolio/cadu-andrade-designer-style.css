@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+.work-square {
+    background: grey;
+    border: solid black ;
+    width: 200px;
+    height: 200px;
+    border-radius: 14%;
+    display: inline-block;
+  
+}
+
+
